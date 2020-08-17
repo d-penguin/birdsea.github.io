@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>踊るペンギンの楽屋</title>
+    <meta name="description" content="Webページを勉強するための部屋">
+    <!--link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"-->
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header id="top">
+      <div class="title">
+        <div class="titlesentence">
+          <h2>踊るペンギンの楽屋</h2>
+          <h4>Webページを勉強するための部屋</h4>
+        </div>
+        <div class="sns">
+          <a href="mailto:drobopenguin@gmail.com"><img class="icon" src="picture/mail.png" alt="Mail"></a>
+          <a href="https://twitter.com/photoriwound"><img class="icon" src="picture/Twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+      <p>Webページをマイペースに学習するための実践の場です。<br>目標は、これ関連のバイトができるようになることです。<br>あと、自分のWebページを持つに相応しい人間にもなりたいです。</p>
+    </header>
+    <main>
+      <p>これのアイコンを編集する用にAdobeのソフトを使ってみたいなぁ</p>
+      <ol class="index">
+      <li class="indexicon"><a href="php.html">PHP</a></li>
+      <li class="indexicon"><a href="count.html">カウント</a></li>
+      <li class="indexicon"><a href="list.html">リスト</a></li>
+      <li class="indexicon"><a href="mogikasi.html">模擬歌詞</a></li>
+      <li class="indexicon"><a href="eikou.html">過去の栄光</a></li>
+      <li class="indexicon"><a href="sampleindex.html">元あったページ</a></li>
+      <li class="indexicon"><a href=https://secure.netowl.jp/netowl/>管理ツール Netowl</a></li>
+      </ol>
+      <div>
+        <?php
+          echo "Hello,world!";
+        ?>
+      </div>
+      <div class="youso">
+        <div class="sentence">
+          ああああああああああああああああどぉしてgooglechrome更新されないのぉあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        </div>
+        <div class="form">
+          <form action="example.php" method="post" name="contact-form">なんちゃってフォーム(何も送信できません)</form>
+          名前：<input type="text" placeholder="姓名"><br>
+          性別：
+          <input type="radio" name="gender" value="男" id="man"><label for="man">男</label>
+          <input type="radio" name="gender" value="女" id="woman"><label for="woman">女</label>
+          <input type="radio" name="gender" value="その他" id="other"><label for="other">その他</label>
+          <br>
+          メールアドレス：<input type="email" placeholder="example.com"><br>
+          好きな色：
+          <input type="checkbox" name="color" value="赤" id="red"><label for="red">赤</label>
+          <input type="checkbox" name="color" value="青" id="blue"><label for="blue">青</label>
+          <input type="checkbox" name="color" value="黄" id="yellow"><label for="yellow">黄</label>
+          <input type="checkbox" name="color" value="緑" id="green"><label for="green">緑</label>
+          <br>
+          血液型：
+          <select name="bloodtype">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="O">O</option>
+            <option value="AB">AB</option>
+            <option value="不明">不明</option>
+          </select>
+          <br>
+          <textarea name="message" placeholder="メッセージを入力"></textarea>
+          <br>
+          <input type="submit" value="送信">
+        </div>
+      </div>
+      <div><a href="#top">トップへ戻る</a></div>
+    </main>
+    <footer>
+      <p><small>&copy; 2020 踊るペンギン</small></p>
+    </footer>
+  </body>
+</html>

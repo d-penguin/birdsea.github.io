@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*コメントアウトぉ*/
+html {
+  /*font-size: 100%;*/
+  font-family: sans-serif;
+}
+
+body {
+  background-color: cornsilk;
+}
+
+p {
+  line-height: 1.7;
+  text-align: center;
+  background-color: gold;
+}
+
+ol{
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+header {
+  background-image: url(picture/skiing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.title{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.sns{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon{
+  background-color: whitesmoke;
+  padding: 5px;
+  width: 50px;
+  margin: auto 5px;
+}
+
+.index{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  /*justify-content: center;*/
+}
+
+.indexicon{
+  color: wheat;
+  background-color: darkgoldenrod;
+  padding: 5px;
+}
+
+.youso{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sentence{
+  background-color: burlywood;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: royalblue;
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.form {
+  background-color: goldenrod;
+  line-height: 1.5;
+  text-align: center;
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+}
